@@ -19,7 +19,7 @@ Install using Docker. (Ideally through VS Code)
 Then Build and Open Devcontainer
 
 
-Run to access container
+Run on terminal to access container
 ```
 docker exec -it <Docker Image ID> bash
 
@@ -27,7 +27,7 @@ docker exec -it <Docker Image ID> bash
 
 
 
-Run below code to setup wandb in Docker Container.
+Run below code in docker container to setup wandb in Docker Container.
 
 ```
 python -c "import wandb; wandb.login(key='your-api-key')"
