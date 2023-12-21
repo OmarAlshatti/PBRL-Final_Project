@@ -1,0 +1,11 @@
+services:
+  test:
+    image: reducingexploitabilityicml:latest
+    command: nvidia-smi
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
