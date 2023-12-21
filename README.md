@@ -1,5 +1,7 @@
 # Defenses Against Adversarial Policies
+
 Based on this [Github Repo](https://github.com/HumanCompatibleAI/reducing-exploitability/tree/icml)
+
 ## Setup and Requirements on Main OS
 
 Should work with python 3.7, 3.8
