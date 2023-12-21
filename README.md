@@ -51,15 +51,7 @@ The settings intended to be configured with gin are:
     - `single-agent` - no additonal arguments
     - `attack` (`aprl_defense.training_managers.simple_training_manager.AttackManager`)
     - `pbt` (`aprl_defense.training_managers.pbt_manager.PBTManager`)
-  
-For further documentation on the configurable parameters check the Documentation of the respective classes.
- 
-`base.gin` offer useful defaults that should be fine for most experiments.
 
-To change hyperparameters we recommend creating RLlib configs that can be passed in via `--override` / `--override_f`
-
-The following examples should clarify how to specify training for different modes (run from `src` folder).
-Further configuration options are possible, but the ones shown are necessary.
 
 #### PBT With Subsequent Attack
 
